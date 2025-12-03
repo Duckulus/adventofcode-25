@@ -13,7 +13,9 @@ Here is a list of all programming languages used by the contributors and the day
 | Day/Lang             | Java | Python | C | Kotlin | Rust | Clojure | Idris2 |
 |----------------------|------|--------|---|--------|------|---------|--------|
 | 01 - Secret Entrance | ✅    | ✅      | ✅ | ✅      | ✅    | ✅       | ✅      |
-| 02 - Gift Shop       | ✅    | ✅      | ✅ | ❌      | ✅    | ❌       | ❌      |
+| 02 - Gift Shop       | ✅    | ✅      | ✅ | ✅      | ✅    | ✅       | ❌      |
+| 03 - Lobby           | ✅    | ✅      | ❌ | ✅      | ✅    | ✅       | ❌      |
+
 
 ❌   = Keine Lösung / No solution,
 ✅   = Voll gelöst / Fully solved,
