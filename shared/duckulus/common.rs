@@ -7,14 +7,14 @@ use std::io::BufRead;
 use std::sync::Arc;
 
 pub enum InputType {
-    Examle,
+    Example,
     Real,
 }
 
 impl InputType {
     fn get_file_name(&self) -> &'static str {
         match self {
-            InputType::Examle => "example",
+            InputType::Example => "example",
             InputType::Real => "input",
         }
     }
@@ -22,9 +22,9 @@ impl InputType {
 
 fn get_path(day: usize, input_type: &InputType) -> String {
     format!(
-        "./in/{}/{}",
-        left_pad_zero(day.to_string().as_str(), 2),
-        input_type.get_file_name()
+        "./{}-{}.txt",
+        input_type.get_file_name(),
+        left_pad_zero(day.to_string().as_str(), 2)
     )
 }
 
